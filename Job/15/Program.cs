@@ -9,7 +9,23 @@
 1 -> нет
 */
 
+Console.WriteLine("Введите число...");
+int day = int.Parse(Console.ReadLine());
 
+if (day > 5 && day < 8)
+{
+    Console.WriteLine("Выходной");
+}
+else if (day > 0 && day < 6)
+{
+    Console.WriteLine("Рабочий");
+}
+else
+{
+    Console.WriteLine("Такого дня недели нет");
+}
+
+/*
 while(true)
 {
     Console.WriteLine("Введите номер дня недели, от 1 до 7..");
@@ -58,5 +74,6 @@ while(true)
         Console.WriteLine("такого номера дня недели не существует\nпопробуйте снова");
     }
 }
+*/
 
 
