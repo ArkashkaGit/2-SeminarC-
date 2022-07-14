@@ -10,11 +10,7 @@ while(true)
     Console.WriteLine("Введите трёх значное число... ");
     int num = int.Parse(Console.ReadLine());
 
-    if (num < 100)
-    {
-        Console.WriteLine("Вы ввели неправильное число, \nпопробуйте снова!!! \n");
-    }
-    else if (num > 999)
+    if (num < 100 || num > 999)
     {
         Console.WriteLine("Вы ввели неправильное число, \nпопробуйте снова!!! \n");
     }
